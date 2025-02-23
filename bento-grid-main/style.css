@@ -130,3 +130,109 @@ img{
 .img-sa{
     width:200px;
 }
+@media(width>650px){
+    .griddy{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 180px 180px 180px;
+        grid-template-rows: 200px 200px 200px 200px;
+        gap:1.5em;
+        grid-template-areas: 
+        "box-2 box-1 box-1"
+        "box-2 box-4 box-5"
+        "box-2 box-6 box-6"
+        "box-3 box-3 box-8";
+    }
+    .seventh{
+        height:304px;
+        padding:30px 26px;
+    }
+    .fonty{
+        font-size: 24px;
+        line-height: 0.9;
+    }
+    .follow-img{
+        width: 100%;
+    }
+    .img-sa{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .first{
+        height: 200px;
+    }
+    .heading{
+        width:100%;
+    }
+    .five-star{
+        width: 120px;
+    }
+    .star{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .fourth{
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .far{
+        width: 150px;
+    }
+    .forth-para{
+        text-align: left;
+        width: 50%;
+        font-size: 14px;
+    }
+    .second,.sixth{
+        overflow-x: hidden;
+        height: 200px;
+    }
+    .calen{
+        width:100%;
+    }
+    .fifth{
+        display: flex;
+        height: 200px;
+    }
+    .follow{
+        width: 170px;
+    }
+    .grow{
+        text-align: left;
+    }
+    .large{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+    }
+    .box1{
+        width:180px;
+        height:324px;
+    }
+    .pad{
+        width:auto;
+        margin: 0%;
+    }
+}
+@media(width>991px){
+    .griddy{
+        grid-template-columns: 180px 180px 180px 180px;
+        grid-template-rows: 200px 200px 200px;
+        grid-template-areas: 
+        "box-2 box-1 box-1 box-3"
+        "box-2 box-4 box-5 box-3"
+        "box-2 box-8 box-6 box-6";
+    }
+    .fourth{
+        display: block;
+        height: 424px;
+        overflow-x: hidden;
+    }
+    .far{
+        width: 230px;
+    }
+    .forth-para{
+        width: 100%;
+    }
+}
